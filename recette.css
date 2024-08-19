@@ -1,0 +1,84 @@
+body {
+  background-color: #8ba1bb;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+p.categorie { 
+  background-color: black;
+  color: #8ba1bb; /* Applique la couleur demandée au texte */
+  display: inline-block;
+  margin-left: 50%; /* Place le texte au milieu de l'écran */
+  transform: translateX(-50%) translateY(-50%); /* Décale le texte pour que la moitié soit en dehors de la marge */
+  padding: 8px 18px;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  top: -20px;
+
+div.centre {
+  text-align: center;
+  position: relative;
+}
+
+div.contenu {
+  background-color: white;
+  margin: 0px 10% 80px 10%;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+p.description {
+  text-align: center;
+  max-width: 400px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div.separateur {
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display:block
+}
+
+.info-table {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(81, 147, 198, 0.579); /* Fond bleu transparent */
+  color: white;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse; /* Assure qu'il n'y ait pas de bordures entre les cellules */
+  border: none; /* Retire la bordure du tableau */
+}
+
+.info-table th, .info-table td {
+  padding: 10px;
+  border: none; /* Retire les bordures à l'intérieur du tableau */
+} 
+
+.content {
+  padding: 20px;
+  background-color: white;
